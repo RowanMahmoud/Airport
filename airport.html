@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	 <link rel="stylesheet" type="text/css" href="airport .css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<div class="main">
+<body>
+<nav class="col-lg-12" style="font-size: 30px;">   <img src="images.jpg" >
+Airport
+	<div class="Home">
+				<a href="blog.html">Home</a>
+				<a href="#">Flights</a>
+				<a href="#">Hotels </a>
+				<a href="#">Cars</a>
+				<a href="f.html">Insurance</a>
+				<a href="#">My Account</a>
+       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+				
+</nav>
+</div><br><br><br><br><br>
+
+
+<style>
+.mySlides {display:none;}
+</style>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="download (1).jpg" style="width:100%">
+  <img class="mySlides" src="download.jpg" style="width:100%">
+  <img class="mySlides" src="download (2).jpg" style="width:100%">
+  <img class="mySlides" src="download (3).jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  
+    
+<div class="container-fluid bg-3 text-center">    
+  <h1><b>Trips</h1><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3><b>Venice, Italy</b></h3>
+      <img src="italy.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>If traversing the canals with a be-striped gondolier sounds unbearably touristy, stick to the sidewalks and spectacular arched bridges to get your fill of this truly unique, wildly romantic floating city.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <h3><b>Banff National Park, Canada</b></h3>
+      <img src="canada.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>The glacial lakes in Canada's first national park have some of the bluest water you've ever seen. Even if you're not particularly outdoorsy, you can still admire the views from one of the cozy and luxurious lakeside lodges throughout the park, like the Fairmont Chateau Lake Louise.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <h3><b>Great Ocean Road, Australia</h3>
+      <img src="asturalia.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Head west from Melbourne on this coastal drive to see everything from the famous 12 Apostle rock formations, to koalas in Great Otway National Park as well as the charming seaside town of Lorne.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3><b>Pamukkale, Turkey</h3>
+      <img src="turkey.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Put every infinity pool you’ve ever seen to shame with these natural, snow-white hot springs overlooking the nearby city of Denizli. On top of the picturesque soak, Pamukkale is also home to the impressively preserved ruins of the ancient Roman spa-city Hierapolis where you can bathe like an emperor among the submerged centuries-old columns.</p>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <h3><b>Japan in Cherry Blossom Season</b></h3>
+      <img src="japan.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>While Japan is beautiful year-round, the few weeks each spring when cherry trees across the country explode with blossoms is a particularly pretty time to visit.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <h3><b>Pitons, St Lucia</b></h3>
+      <img src="lucia.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>These two volcanic mountains are one of the most recognizable—not to mention beautiful—features on this Caribbean island. Enjoy the Pitons from the pristine white sand beach at Sugar Beach, A Viceroy Resort.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <h3><b>Marrakesh, Morocco</b></h3>
+      <img src="morco.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Located at the foot of the Atlas Mountains, Marrakesh has changed little since the Middle Ages. You could spend days here wandering around maze-like alleyways discovering the city's colorful souks, palaces and gardens.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3><b>Bora Bora, French Polynesia</b></h3>
+      <img src="french.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>With turquoise lagoons, coral reefs and overwater bungalows, this small island in the South Pacific is basically heaven on Earth.</p>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+</footer>
+
+</body>
+</html>
